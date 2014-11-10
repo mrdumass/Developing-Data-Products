@@ -3,7 +3,7 @@ library(shiny)
 # Rely on the 'WorldPhones' dataset in the datasets
 # package (which generally comes preloaded).
 library(datasets)
-flip<-t(WorldPhones)
+flip<-(WorldPhones)
 
 # Define a server for the Shiny app
 shinyServer(function(input, output) {

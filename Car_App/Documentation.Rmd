@@ -1,0 +1,26 @@
+---
+title: "Documentation"
+author: "Kirk Mettler"
+date: "November 17, 2014"
+output: html_document
+---
+
+This is a Shiny App using the mtcars dataset distributed with the basic R distribution. The App allows the user to select the variable for both the X and Y Axis by selecting them from the widget on the left hand sidebar. In addition the user can also define a third variable from the factor variables in the matcars dataset to be used to color the points in the scatter plot again from a widget in the sidebar. The plot also fits a regession line of the X variable onto the Y variable. 
+
+The mtcars data set contains the following variables:
+```
+mpg   - Miles per Gallon
+cyl   - Number of Cylinders in the Engine 
+disp  - Displacement of the Engine (cu.in.)
+hp    - Gross Horsepower
+drat  - Rear Axil Ratio
+wt    - Weight (lb/1000)
+qsec  - Time in the Quarter Mile
+v/s   - V/S
+am    - Transmission (0=Automatic, 1=Manual)
+gear  - Number of Gears
+carb  - Number of Carburators
+```
+Using these selections the user can easily explore this data set and gain a basic understanding of the relationship between the variables.
+
+

@@ -13,6 +13,9 @@ shinyUI(navbarPage ("Navbar" ,
          mainPanel(
             plotOutput('plot1')
             )),
+         tabPanel("Data Table",
+                 verbatimTextOutput("print1")
+         ),
          tabPanel("Documentation",
                   fluidRow (column(6,includeMarkdown("Documentation.Rmd")) )
          )))
